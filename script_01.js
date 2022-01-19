@@ -3,6 +3,7 @@
 /***** Funktionen 01 *****/
 
 // 1. Kapselung von Codeblöcken
+
 // Funktionsaufruf (call)
 //test();
 
@@ -20,6 +21,9 @@ ausgabeNamen();
 
 // Function
 function ausgabeNamen() {
-    let firstName = "Anna";
+    let firstName = "Anna"; // what happens in Vegas.
     console.log ("Lappen!" + firstName);
 }
+
+//console.log(firstName); //.. stays in Vegas
+
