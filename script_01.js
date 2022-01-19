@@ -28,13 +28,28 @@ function ausgabeNamen() {
 /***** Funktionen 02a *****/
 // 2a. Parametrisierung + Datenübergabe von INNEN
 
-// Aufruf (call)
-ausgabeNamen();
+// // Aufruf (call)
+// ausgabeNamen();
 
-// Funktion
-function ausgabeNamen() {
-    let firstName = "Anna"; // what happens in Vegas, ...
-    console.log("Hallo " + firstName + "!");
-}
+// // Funktion
+ function ausgabeNamen() {
+
+ }
+//     let firstName = "Anna"; // what happens in Vegas, ...
+//     console.log("Hallo " + firstName + "!");
+
 
 // console.log(firstName);  // .. stays in Vegas!
+
+/****Funktionen 2b *****/
+// 2b. Parametisierung + Datenübergabe von AUSSEN
+
+function ausgabeNamenParam(firstName) {
+    console.log ("Lappen!" + firstName);
+}
+
+// Argumente (args) --> Daten für Parameter
+ausgabeNamenParam("Robert"); // Argumente(e)
+ausgabeNamenParam("Enton");
+ausgabeNamenParam();
+ausgabeNamenParam(prompt("Vorname"));
